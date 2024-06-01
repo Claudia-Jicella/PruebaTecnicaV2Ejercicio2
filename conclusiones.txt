@@ -1,0 +1,4 @@
+Conclusiones:
+
+1. Un reto personal satisfactorio ya que nunca había trabajado con el framework Karate.
+2. Se logro culminar con todos features definidas por el cliente.

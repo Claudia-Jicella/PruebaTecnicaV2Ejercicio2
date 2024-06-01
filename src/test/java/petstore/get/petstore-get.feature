@@ -1,6 +1,8 @@
 Feature: Get pet on Swagger Petstore
 
+  @Get
   Scenario: Get a pet
-    Given url "https://petstore.swagger.io" + "/#/pet/" + "findPetsByStatus"
+    * call read("../post/petstore-post.feature@Create")
+    Given url "https://petstore.swagger.io" + "/#/pet/" + "petId"
     When method get
     Then status 200
